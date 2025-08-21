@@ -19,6 +19,35 @@
   }
 }
 
+.background-card {
+  position: absolute;
+  top: 1rem;      /* 16px padding from top */
+  left: 1rem;     /* 16px padding left */
+  right: 1rem;    /* 16px padding right */
+  bottom: 1rem;   /* 16px padding bottom */
+  background-color: #f3f4f6;  /* Tailwind’s bg-gray-100 hex (#f3f4f6) */
+  border-radius: 1rem;        /* rounded-2xl approx. */
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05); /* shadow-lg */
+  z-index: -10;
+  padding: 2rem;
+  /* 32px padding */
+}
+
+.portfolio-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-type: start;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -27,6 +56,6 @@ body {
 
 .bg-hero-pattern {
   background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 100 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9c9c9' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 10s0 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9c9c9' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 

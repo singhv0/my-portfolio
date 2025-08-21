@@ -1,12 +1,20 @@
 import Image from "next/image";
 import HeroSection from "./components/hero";
 import Header from "./components/header";
+import About from "./components/about";
+import Projects from "./components/projects";
+import Skills from "./components/skills";
+import Contact from "./components/contact";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-8 space-y-12">
-      <div className="bg-hero-pattern w-full m-10 h-10"><Header /></div>
-      <div className="flex-grow"><HeroSection /></div>
+    <div className="portfolio-container">
+      {/* <Header /> */}
+      <HeroSection />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
     </div>
   );
 }
