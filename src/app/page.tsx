@@ -1,23 +1,32 @@
 `use client`
 
-import Image from "next/image";
-// import HeroSection from "./components/hero";
-// import Header from "./components/header";
+import HeroSection from "./components/heroSection";
 import About from "./components/about";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
-import HeroSection from "./components/heroSection";
-import { use } from "react";
 
 export default function Home() {
   return (
-    <div className="portfolio-container">
+    <>
       <HeroSection />
       <About />
       <Projects />
       <Skills />
       <Contact />
-    </div>
+      {/* Add a tall section for testing */}
+      <section
+        style={{
+          height: "150vh",
+          background: "#222",
+          color: "#fff",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <h2>Scroll to see Locomotive Scroll Parallax</h2>
+      </section>
+    </>
   );
 }
