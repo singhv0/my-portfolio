@@ -19,6 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Redacted+Script:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
         className={`${raleway.variable} antialiased`}
       >
