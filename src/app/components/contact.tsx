@@ -1,10 +1,24 @@
 import React from 'react';
 
 const Contact: React.FC = () => (
-    <section className="section flex flex-col items-center justify-center text-center p-10 space-y-6">
-        <div className="text-6xl font-bold text-[#37BEB0]">Contact Me</div>
-        <div className="text-[#4A5568] text-2xl">
-            If you'd like to get in touch, feel free to reach out!
+    <section className="section flex flex-col justify-center items-start h-screen pl-52 space-y-1">
+        <div
+            data-scroll
+            data-scroll-speed="6"
+            className="w-full flex"
+        >
+            <div className="text-6xl font-black text-[#e1e1e1]">
+                Contact Me
+            </div>
+        </div>
+        <div
+            data-scroll
+            data-scroll-speed="8"
+            className="w-full flex"
+        >
+            <div className="text-[#ffffff] text-2xl max-w-xl">
+                I create unconventional yet functional & visually pleasing interfaces for mobile and web
+            </div>
         </div>
     </section>
 );

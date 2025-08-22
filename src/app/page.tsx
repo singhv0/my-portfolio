@@ -16,19 +16,6 @@ export default function Home() {
       <Projects />
       <Skills />
       <Contact />
-      {/* Add a tall section for testing */}
-      <section
-        style={{
-          height: "150vh",
-          background: "#222",
-          color: "#fff",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <h2>Scroll to see Locomotive Scroll Parallax</h2>
-      </section>
     </>
   );
 }
