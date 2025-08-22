@@ -2,18 +2,18 @@
 export default function HeroSection() {
   return (
     <section className="flex flex-col items-center justify-center h-screen bg-white dark:bg-[#171717]">
-      <div className="flex flex-row items-end justify-center space-x-4 mb-4">
+      <div className="flex flex-row items-end justify-center space-x-4 -mt-20">
         <span
           data-scroll
-          data-scroll-speed="2"
-          className="text-7xl md:text-[13rem] font-extrabold text-[#ffffff]"
+          data-scroll-speed="4"
+          className="text-7xl md:text-[13rem] font-black bg-gradient-to-r from-white to-gray-400 text-transparent bg-clip-text"
         >
           Creative
         </span>
         <button
           data-scroll
-          data-scroll-speed="2.5"
-          className="playwrite-us-trad text-2xl md:text-xl font-light text-[#ffffff] bg-[#305ce1] rounded-full px-6 py-2"
+          data-scroll-speed="4"
+          className="playwrite-us-trad text-2xl md:text-xl font-light text-[#ffffff] bg-[#305ce1] rounded-full px-8 py-4 mb-8 ml-2"
         >
           Visual
         </button>
@@ -22,14 +22,14 @@ export default function HeroSection() {
         <span
           data-scroll
           data-scroll-speed="5"
-          className="redacted-script font-extrabold text-3xl md:text-7xl text-gray-600 mr-12 mb-10"
+          className="redacted-script font-extrabold text-3xl md:text-[7rem] text-gray-600 mr-18 -mt-20"
         >
           Graphic
         </span>
         <div
           data-scroll
           data-scroll-speed="6"
-          className="text-4xl md:text-[8rem] font-extrabold text-[#3ED2C3] -mt-24"
+          className="md:text-[9rem] align-text-top font-extrabold bg-gradient-to-r from-[#3ED2C3] to-[#209d91] text-transparent bg-clip-text -mt-22 mr-6"
         >
           Designer
         </div>

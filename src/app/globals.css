@@ -42,8 +42,8 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: #171717;
+  color: #ededed;
   font-family: var(--font-raleway), Arial, Helvetica, sans-serif;
 }
 
